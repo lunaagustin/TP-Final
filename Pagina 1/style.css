@@ -1,0 +1,99 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    background-color: lightblue;
+}
+
+header .logo{
+    margin-left: 15px;
+}
+
+.logo p{
+    font-size: 25px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li:hover{
+    margin-right: 15px;
+    transform: scale(1.2);
+    
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 25px;
+}
+
+main .historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px black solid;
+}
+
+main section .imagen{
+    width: 100%;
+    height: auto;
+}
+
+main section .presentacion{
+    text-align: center;
+}
+
+.ofertas{
+    background-color: yellow;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.producto{
+    border: 2px black dashed ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 15px;
+    width: 15%;
+}
+
+.productos img{
+    object-fit: contain;
+    width: 50%;
+    height: 100px;
+    margin: 15px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightblue;
+}
+
+footer p{
+    font-size: 25px;
+}
