@@ -66,8 +66,9 @@ main section .presentacion{
 
 .productos{
     display: flex;
-    justify-content: space-around; 
-    align-items: center; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .producto{
@@ -77,7 +78,7 @@ main section .presentacion{
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin: 15px;
+    margin: 32px;
     width: 15%;
 }
 
